@@ -61,7 +61,7 @@ body {
 }
 
 .full-form {
-    height: 695px;
+    height: 540px;
     width: 320px;
     margin: auto;
     padding: 30px;
@@ -121,4 +121,62 @@ input {
 .btn-width-100 {
     width: 100%;
     margin-left: 0;
+}
+
+.form-footer {
+    width: 318px;
+    height: 63px;
+    padding-top: 50px;
+    text-align: center;
+    color: #bbb;
+    font-style: italic;
+    font-size: 12px;
+
+}
+
+.captcha {
+    padding: 0;
+    text-align: center;
+    background-color: #eceef1;
+    display: block;
+    width: 380px;
+    height: 53px;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .9;
+    margin-top: 16px;
+    margin-left: -30px;
+    display: flex;
+}
+
+.captcha-text {
+    font-size: 10px;
+    color: #8d9096;
+    margin: auto;
+}
+.copyright{
+    width: 1136px;
+    width: 36;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.links{
+    margin: auto;
+    width: 160px;
+    height: 18px;
+    font-size: 12px;
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+     
+}
+.copies{
+    width: 702px;
+    height: 15px;
+    font-size: 12px;
+}
+.links > a {
+    margin: auto;
 }
