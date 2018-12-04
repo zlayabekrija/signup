@@ -14,38 +14,70 @@
 
 <body>
     <header>
-        <div class="login-text">
-            <p>Already have Intuit Account?</p>
+        <div class="top-bar">
+            <div class="move-right">
+                <div class="login-text">
+                    <div>Already have Intuit Account?</div>
+                    <a href="#" class="forgot">I forgot my Username or Password</a>
+                </div>
+                <div class="btn-div">
+                    <button class="login-btn">
+                        <i class="fas fa-lock"></i> Sign In
+                    </button>
+                </div>
+            </div>
+            <div style="clear: both"></div>
         </div>
-        <div class="login-link"><a href="#">I forgot my Username or Password</a></div>
-        <button class="login-btn">
-            <i class="fas fa-lock"></i>Sign In
-        </button>
     </header>
-    <div class="logo">
-        <img src="./img/ecosystem_logos_new@2x.png" alt="Logo">
+    <div class="intuit">
+        <div class="intuit-logo"></div>
     </div>
-    <div class="subtitle">
-
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+    <div class="sub-logos">
+        <div class="mint"></div>
+        <div class="quick-books"></div>
+        <div class="turbo-tax"></div>
     </div>
-    <form action="">
-        <div class="form-title"></div>
-        <div class="form-subtitle"></div>
-        <label>Email adress</label><input type="email">
-        <label>Phone (recommended)</label><input type="tel">
-        <label>Password</label><input type="password" name="" id="">
-        <label>Confirm Password</label><input type="password" name="" id="">
-        <button type="submit"><i class="fas fa-lock"></i>Create Account</button>
+    <div class="full-form">
+        <header class="form-header">
+            <div class="form-title">
+                <span class="header-title">One Account</span>
+                <br>
+                <span class="header-title">Everything Intuit.</span>
+            </div>
+            <div class="form-subtitle">
+                Create an account for all of Intuit's products <br> including Mint.
+                <a href="#" class="forgot">Learn more</a>
+            </div>
+        </header>
+        <form action="">
 
-        <div>By clicking Create Account, you agree to our
-            License Agreement and have read and acknowledge our Privacy Statement.</div>
+            <fieldset>
+                <label class="labels">Email address</label><br>
+                <input type="email">
+            </fieldset>
+            <br>
+            <fieldset>
+                <label class="labels">Phone (recommended)</label><input type="tel">
+                <div class="sub-phone">
+                    Standard call, messaging or data rates may apply.
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <label class="labels">Password</label><br>
+                <input type="password" name="" id="">
+            </fieldset>
+            <br>
+            <button class="login-btn btn-width-100" type="submit"><i class="fas fa-lock"></i>Create Account</button>
 
-        <div>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</div>
+            <div>By clicking Create Account, you agree to our
+                License Agreement and have read and acknowledge our Privacy Statement.</div>
 
-    </form>
+            <div>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</div>
+
+        </form>
+    </div>
+
     <footer>
         <div class="links"><a href="#">Legal</a>
             <a href="#">Privacy</a>
