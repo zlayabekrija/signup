@@ -54,7 +54,7 @@ body {
 
 .intuit-logo {
     background-image: url(/img/ecosystem_logos_new@2x.png);
-    background-position: 0 0;
+    background-position: 0px 0px;
     background-size: 458px 83px;
     width: 118px;
     height: 35px;
@@ -156,8 +156,8 @@ input {
     margin: auto;
 }
 .copyright{
-    width: 1136px;
-    width: 36;
+    width: 700px;
+    height:  36px;
     margin: auto;
     text-align: center;
     padding-bottom: 30px;
@@ -178,5 +178,36 @@ input {
     font-size: 12px;
 }
 .links > a {
+    margin: auto;
+}
+.sub-logos{
+    width: 350px;
+    height: 23px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 15px;
+}
+.mint{
+    background-image: url(/img/ecosystem_logos_new@2x.png);
+    background-position: 207px 770px;
+    background-size: 458px 53px;
+    width: 68px;
+    height: 28px;
+    margin: auto;
+}
+.quick-books{
+    background-image: url(/img/ecosystem_logos_new@2x.png);
+    background-position: -110px 770px;
+    background-size: 458px 53px;
+    width: 130px;
+    height: 28px;
+    margin: auto;
+}
+.turbo-tax{
+    background-image: url(/img/ecosystem_logos_new@2x.png);
+    background-position: -0px 770px;
+    background-size: 458px 53px;
+    width: 105px;
+    height: 28px;
     margin: auto;
 }
