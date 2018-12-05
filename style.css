@@ -61,12 +61,13 @@ body {
 }
 
 .full-form {
-    height: 540px;
+    height: 587px;
     width: 320px;
     margin: auto;
     padding: 30px;
     background-color: #fff;
     border: 1px solid #c7c7c7;
+    padding-bottom: 0;
 }
 
 .header-title {
@@ -161,6 +162,7 @@ input {
     margin: auto;
     text-align: center;
     padding-bottom: 30px;
+    opacity: .75;
 }
 .links{
     margin: auto;
@@ -189,25 +191,36 @@ input {
 }
 .mint{
     background-image: url(/img/ecosystem_logos_new@2x.png);
-    background-position: 207px 770px;
-    background-size: 458px 53px;
-    width: 68px;
+    background-position: 199px 789px;
+    background-size: 420px;
+    width: 82px;
     height: 28px;
     margin: auto;
 }
 .quick-books{
     background-image: url(/img/ecosystem_logos_new@2x.png);
-    background-position: -110px 770px;
-    background-size: 458px 53px;
-    width: 130px;
+    background-position: -99px 789px;
+    background-size: 420px;
+    width: 128px;
     height: 28px;
     margin: auto;
 }
 .turbo-tax{
     background-image: url(/img/ecosystem_logos_new@2x.png);
-    background-position: -0px 770px;
-    background-size: 458px 53px;
-    width: 105px;
+    background-position: -0px 789px;
+    background-size: 420px;
+    width: 104px;
     height: 28px;
     margin: auto;
+}
+@media only screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+    .copyright {
+        width: 500px;
+    }
+    .full-form {
+        height: 445px;
+    }
 }
