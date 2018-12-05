@@ -61,7 +61,7 @@ body {
 }
 
 .full-form {
-    height: 587px;
+    height: 585px;
     width: 320px;
     margin: auto;
     padding: 30px;
@@ -156,40 +156,46 @@ input {
     color: #8d9096;
     margin: auto;
 }
-.copyright{
+
+.copyright {
     width: 700px;
-    height:  36px;
+    height: 36px;
     margin: auto;
     text-align: center;
     padding-bottom: 30px;
     opacity: .75;
 }
-.links{
+
+.links {
     margin: auto;
     width: 160px;
     height: 18px;
     font-size: 12px;
-    padding-top:10px;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
-     
+
 }
-.copies{
+
+.copies {
     width: 702px;
     height: 15px;
     font-size: 12px;
 }
-.links > a {
+
+.links>a {
     margin: auto;
 }
-.sub-logos{
+
+.sub-logos {
     width: 350px;
     height: 23px;
     margin: auto;
     display: flex;
     padding-bottom: 15px;
 }
-.mint{
+
+.mint {
     background-image: url(/img/ecosystem_logos_new@2x.png);
     background-position: 199px 789px;
     background-size: 420px;
@@ -197,7 +203,8 @@ input {
     height: 28px;
     margin: auto;
 }
-.quick-books{
+
+.quick-books {
     background-image: url(/img/ecosystem_logos_new@2x.png);
     background-position: -99px 789px;
     background-size: 420px;
@@ -205,7 +212,8 @@ input {
     height: 28px;
     margin: auto;
 }
-.turbo-tax{
+
+.turbo-tax {
     background-image: url(/img/ecosystem_logos_new@2x.png);
     background-position: -0px 789px;
     background-size: 420px;
@@ -213,13 +221,16 @@ input {
     height: 28px;
     margin: auto;
 }
+
 @media only screen and (max-width: 900px) {
     header {
         display: none;
     }
+
     .copyright {
         width: 500px;
     }
+
     .full-form {
         height: 445px;
     }
