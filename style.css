@@ -1,0 +1,237 @@
+body {
+    background-color: #ECEEF1;
+}
+
+.top-bar {
+    text-align: right;
+    padding: 10px 30px;
+}
+
+.login-btn {
+    display: inline;
+}
+
+.fa-lock {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.login-btn {
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: #fff;
+    font-size: 12px;
+    height: 34px;
+    padding: 0 30px;
+    margin-left: 10px;
+}
+
+.move-right {
+    float: right;
+    width: 300px;
+}
+
+.login-text {
+    width: 170px;
+    float: left;
+    color: #505050;
+    text-align: right;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.forgot {
+    text-decoration: none;
+    color: #0077C5;
+}
+
+.intuit {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.intuit-logo {
+    background-image: url(https://github.com/zlayabekrija/signup/raw/development/img/ecosystem_logos_new%402x.png);
+    background-position: 0px 0px;
+    background-size: 458px 83px;
+    width: 118px;
+    height: 35px;
+}
+
+.full-form {
+    height: 585px;
+    width: 320px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    padding-bottom: 0;
+}
+
+.header-title {
+    color: #4C4C4C;
+    line-height: 1.1;
+    font-size: 24px;
+}
+
+.form-title,
+.form-subtitle {
+    text-align: center;
+}
+
+.form-subtitle {
+    padding-top: 20px;
+    color: #4C4C4C;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.form-header {
+    padding-bottom: 20px;
+}
+
+.labels {
+    font-weight: 400;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 6px;
+}
+
+.sub-phone {
+    padding: 5px 0;
+    font-size: 10px;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    line-height: 1.3em;
+    color: #000;
+    outline: 0;
+    font-size: 1.2em;
+    width: 320px;
+    min-width: 160px;
+}
+
+.btn-width-100 {
+    width: 100%;
+    margin-left: 0;
+}
+
+.form-footer {
+    width: 318px;
+    height: 63px;
+    padding-top: 50px;
+    text-align: center;
+    color: #bbb;
+    font-style: italic;
+    font-size: 12px;
+
+}
+
+.captcha {
+    padding: 0;
+    text-align: center;
+    background-color: #eceef1;
+    display: block;
+    width: 380px;
+    height: 53px;
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .9;
+    margin-top: 16px;
+    margin-left: -30px;
+    display: flex;
+}
+
+.captcha-text {
+    font-size: 10px;
+    color: #8d9096;
+    margin: auto;
+}
+
+.copyright {
+    width: 700px;
+    height: 36px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+    opacity: .75;
+}
+
+.links {
+    margin: auto;
+    width: 160px;
+    height: 18px;
+    font-size: 12px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.copies {
+    width: 702px;
+    height: 15px;
+    font-size: 12px;
+}
+
+.links>a {
+    margin: auto;
+}
+
+.sub-logos {
+    width: 350px;
+    height: 23px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.mint {
+    background-image: url(https://github.com/zlayabekrija/signup/raw/development/img/ecosystem_logos_new%402x.png);
+    background-position: 199px 789px;
+    background-size: 420px;
+    width: 82px;
+    height: 28px;
+    margin: auto;
+}
+
+.quick-books {
+    background-image: url(https://github.com/zlayabekrija/signup/raw/development/img/ecosystem_logos_new%402x.png);
+    background-position: -99px 789px;
+    background-size: 420px;
+    width: 128px;
+    height: 28px;
+    margin: auto;
+}
+
+.turbo-tax {
+    background-image: url(https://github.com/zlayabekrija/signup/raw/development/img/ecosystem_logos_new%402x.png);
+    background-position: -0px 789px;
+    background-size: 420px;
+    width: 104px;
+    height: 28px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    .copyright {
+        width: 500px;
+    }
+
+    .full-form {
+        height: 445px;
+    }
+}
